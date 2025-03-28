@@ -1,2 +1,2 @@
 # copier-default-debug
-0.4.0
+0.5.0
