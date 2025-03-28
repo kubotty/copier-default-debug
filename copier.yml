@@ -1,0 +1,10 @@
+# questions
+first_question:
+    type: bool
+    help: First question
+
+second_question:
+    type: bool
+    help: Second question
+    default: "{{ first_question }}"
+    when: "{{ first_question }}"
